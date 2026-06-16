@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://biotohrr8xqfg"]
+
+[ext_resource type="Script" uid="uid://davcs1qrau2lj" path="res://scripts/item.gd" id="1_4gq7n"]
+
+[node name="Item" type="Node2D"]
+script = ExtResource("1_4gq7n")
+
+[node name="Sprite" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
