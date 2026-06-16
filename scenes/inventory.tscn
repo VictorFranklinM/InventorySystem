@@ -1,0 +1,152 @@
+[gd_scene load_steps=4 format=3 uid="uid://l1gchidnvgpy"]
+
+[ext_resource type="Texture2D" uid="uid://cejxr4uvoqagl" path="res://textures/Inventory.png" id="1_hj2ta"]
+[ext_resource type="Texture2D" uid="uid://cdq6bhbbs5k6o" path="res://textures/Slot.png" id="2_ty45s"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_53g1v"]
+texture = ExtResource("2_ty45s")
+
+[node name="Inventory" type="Node2D"]
+
+[node name="InventoryBG" type="TextureRect" parent="."]
+offset_left = 269.0
+offset_top = 39.0
+offset_right = 989.0
+offset_bottom = 579.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_hj2ta")
+
+[node name="Grid" type="GridContainer" parent="."]
+offset_left = 483.0
+offset_top = 64.0
+offset_right = 973.0
+offset_bottom = 554.0
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 5
+
+[node name="Slot1" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot2" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot3" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot4" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot5" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot6" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot7" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot8" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot9" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot10" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot11" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot12" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot13" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot14" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot15" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot16" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot17" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot18" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot19" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot20" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot21" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot22" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot23" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot24" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
+
+[node name="Slot25" type="Panel" parent="Grid"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_53g1v")
